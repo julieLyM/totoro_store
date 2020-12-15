@@ -1,0 +1,77 @@
+<!--debut titre android-->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Totoro on android
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<!--fin android-->
+
+
+<!--debut titre ios-->
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Totoro on ios
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+<!--fin ios-->
+
+  <ion-card>
+    <ion-card-header>
+      <img src="../../assets/logo1.jpg" alt="totoro">
+      <ion-card-subtitle>Super Peluche Totoro</ion-card-subtitle>
+      <ion-card-title>14 €</ion-card-title>
+    </ion-card-header>
+
+  
+    <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+    <ion-button (click)="onBack()"><ion-icon name="arrow-undo-outline"></ion-icon>Back</ion-button>
+    <ion-button (click)="onBuying()"><ion-icon name="basket-outline" slot="start" ></ion-icon>Acheter</ion-button>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <img src="../../assets/logo2.jpg" alt="totoro">
+      <ion-card-subtitle>Figurine Totoro et accessoires</ion-card-subtitle>
+      <ion-card-title>20€</ion-card-title>
+    </ion-card-header>
+
+  
+    <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+    <div style="text-align: center;">
+
+    <ion-button (click)="onBack()"><ion-icon name="arrow-undo-outline"></ion-icon>Back</ion-button>
+    <ion-button (click)="onBuying()"><ion-icon name="basket-outline" slot="start"></ion-icon>Acheter</ion-button>
+  </div>
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-header>
+      <img src="../../assets/logo3.jpg" alt="totoro">
+      <ion-card-subtitle>Lumière Totoro</ion-card-subtitle>
+      <ion-card-title>30€</ion-card-title>
+    </ion-card-header>
+
+  
+    <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+    <div style="text-align: center;">
+
+    <ion-button (click)="onBack()"><ion-icon name="arrow-undo-outline"></ion-icon>Back</ion-button>
+    <ion-button (click)="onBuying()"><ion-icon name="basket-outline" slot="start"></ion-icon>Acheter</ion-button>
+  
+    </div>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card-header>
+  <img src="../../assets/logo.jpg" alt="logo"/>
+  <ion-card-subtitle>
+    Bienvenue dans le magasin
+  </ion-card-subtitle>
+  <ion-card-title>
+    Mon voisin Totoro
+  </ion-card-title>
+</ion-card-header>
+
+<ion-card-content>
+  <ion-item>
+    <ion-input placeholder="Identifiant"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Password" type="password"></ion-input>
+  </ion-item>
+  <ion-row>$</ion-row>
+    <ion-button (click)="onLogin()">Login</ion-button>
+</ion-card-content>
+</ion-content>
